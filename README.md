@@ -2,7 +2,29 @@
 基于 Node.js 的开源个人开源博客系统，采用响应式布局，支持手机访问，功能全面，美观大方。  
 **不仅仅是博客，更是 Demo**，是适合新人入门学习的完整项目。  
 (基于 ASP.NET 的版本见 [这里](https://github.com/eshengsky/iBlog/))
-
+iBlog2/          --> 项目根目录
+  bin/           --> 存放命令行代码文件
+  config/        --> 存放配置文件
+  language/      --> 存放多语言文件
+  models/        --> 存放数据实体文件
+  proxy/         --> 关联routes和models，存放主要业务逻辑
+  ssl/           --> 存放SSL私钥及证书文件
+  public/        --> 存放前端静态资源文件
+    images/      --> 存放站点用到的图片
+    js/          --> 存放自定义脚本文件
+    libs/        --> 存放第三方包
+    css/         --> 存放自定义样式表文件
+    uploads/     --> 存放上传文件
+  routes/        --> 存放路由文件
+  utility/       --> 存放工具脚本文件
+  views/         --> 存放视图文件
+  .gitignore     --> Git忽略文件
+  LICENSE        --> 项目许可文件
+  README.md      --> 项目说明文件
+  app.js         --> 主模块文件
+  config.json    --> 项目配置文件
+  daemon.js      --> 守护进程文件
+  package.json   --> NPM包管理文件
 ## 界面预览
 
 * 前台
